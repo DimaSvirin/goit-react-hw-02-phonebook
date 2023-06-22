@@ -15,7 +15,7 @@ export const Form = styled.form`
 export const Label = styled.label`
     font-size: .85rem;
     text-transform: uppercase;
-    color: #ccc;
+    color: #272626;
 `
 
 export const Input = styled.input`
@@ -26,7 +26,7 @@ export const Input = styled.input`
     border-radius: 0;
     transition: all 250ms linear;
     :focus {outline:none;
-        border-color:greenyellow;
+        border-color: #4f4dca;
     }
 `
 
@@ -43,6 +43,6 @@ export const Button = styled.button`
     border-radius: remy(35px);
     transition: background-color 250ms linear;
         :focus,
-        :hover {background-color: greenyellow;}
+        :hover {background-color: #4f4dca;}
 
 `
