@@ -13,7 +13,9 @@ export const Input = styled.input`
     border-right: 0;
     border-left: 0;
     border-radius: 0;
-    :focus {outline:none}
+    :focus {outline:none;
+        border-color: #4f4dca;
+        }
 `
 
 export const SearchLabel = styled.label`
