@@ -31,7 +31,7 @@ export class App extends Component {
     this.setState({ contacts: newList });
   };
 
-  existRow = existName => alert(`Record ${existName} already exists`);
+  existRow = existName => alert(`${existName} is already in contacts`);
 
   handleForm = row => {
     if (this.state.contacts.find(({ name }) => name === row.name)) {
@@ -45,7 +45,7 @@ export class App extends Component {
     });
   };
 
-  handlerChangeFilter = e => this.setState({ filter: e.target.value });
+  handlerChangeFilter = el => this.setState({ filter: el.target.value });
 
   render() {
     const { filter, contacts } = this.state;
